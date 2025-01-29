@@ -1,0 +1,151 @@
+{
+    "id": 1018806578,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1018806578/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2024-01-05",
+        "sist_modifisert": "2025-01-03T14:07:38"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 41991,
+                    "startposisjon": 0.74227938,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2023
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 9000
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 7,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(272697.676 7043383.216 29.88, 272709.12 7043384.5 29.89, 272711.935 7043384.447 29.836, 272719.53 7043384.31 29.94, 272733.2 7043384.74 29.93, 272740.96 7043385.21 29.88, 272748 7043385.77 29.85, 272753.47 7043386.25 29.85, 272766.39 7043387.7 29.92, 272773.35 7043388.49 29.95, 272779.77 7043389.21 29.99, 272787.26 7043390.06 30.04, 272795.2 7043390.98 30.09, 272802.16 7043391.78 30.16, 272808.12 7043392.47 30.22, 272815.08 7043393.27 30.28, 272821.04 7043393.96 30.31, 272828 7043394.76 30.35, 272832.97 7043395.33 30.38, 272841.01 7043396.54 30.42, 272845.07 7043397.08 30.47, 272846.957 7043397.266 30.38, 272850.58 7043397.77 30.756, 272855.97 7043398.19 31.131, 272856.806 7043398.229 31.189, 272861.77 7043398.46 31.533)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 920262210,
+                "nummer": 5006,
+                "navn": "5006 Trondheim 2020-2028"
+            },
+            {
+                "id": 1013171445,
+                "nummer": 5071,
+                "navn": "5071 Skjøtselskontrakt Trondheim"
+            },
+            {
+                "id": 1015016376,
+                "nummer": 5051,
+                "navn": "E5051 Trøndelag Sør"
+            },
+            {
+                "id": 1016312439,
+                "nummer": 5050,
+                "navn": "E5050 Signalanlegg Trondheim og Malvik 2022-2024"
+            },
+            {
+                "id": 1016532159,
+                "nummer": 9,
+                "navn": "Skiltkontrakt Trøndelag FK 2020-2025"
+            }
+        ],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1002159151,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6668
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1748.974,
+                    "til_meter": 1913.967,
+                    "retning": "MED"
+                },
+                "kortform": "FV6668 S1D1 m1749-1914"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 41991,
+                "startposisjon": 0.74227938,
+                "sluttposisjon": 1.0,
+                "kortform": "0.74227938-1.0@41991",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(272697.676 7043383.216 29.88, 272709.12 7043384.5 29.89, 272711.935 7043384.447 29.836, 272719.53 7043384.31 29.94, 272733.2 7043384.74 29.93, 272740.96 7043385.21 29.88, 272748 7043385.77 29.85, 272753.47 7043386.25 29.85, 272766.39 7043387.7 29.92, 272773.35 7043388.49 29.95, 272779.77 7043389.21 29.99, 272787.26 7043390.06 30.04, 272795.2 7043390.98 30.09, 272802.16 7043391.78 30.16, 272808.12 7043392.47 30.22, 272815.08 7043393.27 30.28, 272821.04 7043393.96 30.31, 272828 7043394.76 30.35, 272832.97 7043395.33 30.38, 272841.01 7043396.54 30.42, 272845.07 7043397.08 30.47, 272846.957 7043397.266 30.38, 272850.58 7043397.77 30.756, 272855.97 7043398.19 31.131, 272856.806 7043398.229 31.189, 272861.77 7043398.46 31.533)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 164.993
+    },
+    "relasjoner": {}
+}

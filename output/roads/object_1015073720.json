@@ -1,0 +1,126 @@
+{
+    "id": 1015073720,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1015073720/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2022-02-04",
+        "sluttdato": "2022-10-06",
+        "sist_modifisert": "2024-04-26T13:25:44"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 42659,
+                    "startposisjon": 0.0,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2021
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 9300
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 10,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(273844.615 7040859.399 75.237, 273842.7 7040857.2 75.237, 273840.1 7040854.9 75.237, 273834.446 7040850.07 74.366, 273830.5 7040846.5 75.537, 273822.618 7040839.977 75.637, 273812.7 7040831.1 75.937, 273800.243 7040820.258 76.337, 273787.1 7040808.6 76.737, 273751.4 7040777.1 77.837, 273713.79 7040744.024 79.137, 273682.6 7040716.6 80.037, 273649.6 7040687.5 81.437, 273638.7 7040677.9 81.737, 273627.8 7040668.2 82.137, 273612.7 7040654.7 82.637, 273580 7040626 83.837, 273574.7 7040621.1 84.337, 273571.1 7040617.7 84.437, 273566.8 7040613.8 84.258, 273563.5 7040610.9 84.123, 273560.819 7040609 84.021, 273559.289 7040607.83 83.962, 273556.9 7040605.7 84.837, 273553.7 7040602.8 84.937, 273551.1 7040600.6 85.137, 273550.031 7040598.979 84.967)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1003307129,
+                    "versjon": 1,
+                    "vegkategori": "K",
+                    "fase": "V",
+                    "nummer": 7703
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 0.0,
+                    "til_meter": 393.762,
+                    "retning": "MED"
+                },
+                "kortform": "KV7703 S1D1 m0-394"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 42659,
+                "startposisjon": 0.0,
+                "sluttposisjon": 1.0,
+                "kortform": "0.0-1.0@42659",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(273844.615 7040859.399 75.237, 273842.7 7040857.2 75.237, 273840.1 7040854.9 75.237, 273834.446 7040850.07 74.366, 273830.5 7040846.5 75.537, 273822.618 7040839.977 75.637, 273812.7 7040831.1 75.937, 273800.243 7040820.258 76.337, 273787.1 7040808.6 76.737, 273751.4 7040777.1 77.837, 273713.79 7040744.024 79.137, 273682.6 7040716.6 80.037, 273649.6 7040687.5 81.437, 273638.7 7040677.9 81.737, 273627.8 7040668.2 82.137, 273612.7 7040654.7 82.637, 273580 7040626 83.837, 273574.7 7040621.1 84.337, 273571.1 7040617.7 84.437, 273566.8 7040613.8 84.258, 273563.5 7040610.9 84.123, 273560.819 7040609 84.021, 273559.289 7040607.83 83.962, 273556.9 7040605.7 84.837, 273553.7 7040602.8 84.937, 273551.1 7040600.6 85.137, 273550.031 7040598.979 84.967)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 393.763
+    },
+    "relasjoner": {}
+}

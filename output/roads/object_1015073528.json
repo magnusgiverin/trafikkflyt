@@ -1,0 +1,166 @@
+{
+    "id": 1015073528,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1015073528/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2022-02-04",
+        "sist_modifisert": "2024-12-18T22:02:01"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 2508146,
+                    "startposisjon": 0.0256401,
+                    "sluttposisjon": 0.96794867,
+                    "kjørefelt": []
+                },
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 2508148,
+                    "startposisjon": 0.0,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2021
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 1500
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 11,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "MULTILINESTRING Z((275841.815 7041832.168 5.702, 275845.282 7041841.286 6.15, 275860.6 7041879.82 5.828, 275873.233 7041910.781 5.659, 275874.427 7041913.707 5.644, 275875.611 7041916.849 5.633, 275883.19 7041934.83 5.538, 275893.563 7041960.638 5.16, 275896.958 7041968.973 5.075), (275819.59 7041775.6 6.848, 275821.56 7041781.11 6.818, 275823.721 7041786.754 6.778, 275825.43 7041791.37 6.728, 275827.33 7041796.12 6.668, 275833.86 7041812.27 6.088, 275834.93 7041814.9 6, 275840.39 7041828.42 5.518))",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1016085204,
+                    "versjon": 1,
+                    "vegkategori": "K",
+                    "fase": "V",
+                    "nummer": 7145
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 0.0,
+                    "til_meter": 56.793,
+                    "retning": "MED"
+                },
+                "kortform": "KV7145 S1D1 m0-57"
+            },
+            {
+                "vegsystem": {
+                    "id": 1016085204,
+                    "versjon": 1,
+                    "vegkategori": "K",
+                    "fase": "V",
+                    "nummer": 7145
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 60.807,
+                    "til_meter": 208.328,
+                    "retning": "MED"
+                },
+                "kortform": "KV7145 S1D1 m61-208"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 2508146,
+                "startposisjon": 0.0256401,
+                "sluttposisjon": 0.96794867,
+                "kortform": "0.0256401-0.96794867@2508146",
+                "kjørefelt": []
+            },
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 2508148,
+                "startposisjon": 0.0,
+                "sluttposisjon": 1.0,
+                "kortform": "0.0-1.0@2508148",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "MULTILINESTRING Z((275841.815 7041832.168 5.702, 275845.282 7041841.286 6.15, 275860.6 7041879.82 5.828, 275873.233 7041910.781 5.659, 275874.427 7041913.707 5.644, 275875.611 7041916.849 5.633, 275883.19 7041934.83 5.538, 275893.563 7041960.638 5.16, 275896.958 7041968.973 5.075), (275819.59 7041775.6 6.848, 275821.56 7041781.11 6.818, 275823.721 7041786.754 6.778, 275825.43 7041791.37 6.728, 275827.33 7041796.12 6.668, 275833.86 7041812.27 6.088, 275834.93 7041814.9 6, 275840.39 7041828.42 5.518))",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 204.315
+    },
+    "relasjoner": {}
+}

@@ -1,0 +1,12 @@
+{
+    "objekter": [],
+    "metadata": {
+        "antall": 0,
+        "returnert": 0,
+        "sidestørrelse": 500,
+        "neste": {
+            "start": "j",
+            "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540?kartutsnitt=300600.0%2C7065666.666666667%2C303000.0%2C7068000.0&kommune=5001&segmentering=false&inkluder=metadata%2Clokasjon%2Cgeometri&tidspunkt=2025-01-22&start=j"
+        }
+    }
+}

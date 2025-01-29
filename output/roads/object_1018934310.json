@@ -1,0 +1,154 @@
+{
+    "id": 1018934310,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1018934310/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2024-01-10",
+        "sist_modifisert": "2024-02-27T10:18:42"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 72248,
+                    "startposisjon": 0.0,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2023
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 250
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 6,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(263257.9 7030306.4 9.729, 263252 7030305.2 9.729, 263246.2 7030304 9.729, 263233.5 7030300.9 9.629, 263225.2 7030298.1 9.629, 263217.7 7030295.7 9.629, 263210.8 7030293.4 9.529, 263202.9 7030291 9.529, 263191.9 7030287.2 9.429, 263183.7 7030284.5 9.529, 263176.2 7030282 9.529, 263167.1 7030279.3 9.529, 263157.7 7030276 9.529, 263146.9 7030272.3 9.629, 263140.2 7030271.1 9.229, 263121.1 7030268.7 8.529, 263103.7 7030267 8.529, 263086.7 7030266.3 8.129, 263074.2 7030266.6 7.529, 263052.7 7030267.4 6.029, 263033.7 7030267.4 4.829, 263015.2 7030266.9 4.129, 263001.7 7030266.3 4.129, 263000.2 7030266.3 4.129, 262998.8 7030266.2 4.129)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001,
+            5028
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 198045165,
+                "nummer": 1608,
+                "navn": "1608 OPS 2005-2030"
+            },
+            {
+                "id": 1019330755,
+                "nummer": 9481,
+                "navn": "9481 Rekkverk Trøndelag og Møre og Romsdal 2023-2024"
+            }
+        ],
+        "riksvegruter": [
+            {
+                "id": 1017626274,
+                "enumid": 20291,
+                "riksvegrute": "Rute 4b: E39 Ålesund - Trondheim",
+                "nummer": "4b",
+                "navn": "RUTE4B"
+            }
+        ],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1002201644,
+                    "versjon": 1,
+                    "vegkategori": "E",
+                    "fase": "V",
+                    "nummer": 39
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "meter": 1991.204,
+                    "retning": "MED"
+                },
+                "kryssystem": {
+                    "id": -1,
+                    "versjon": -1,
+                    "kryssystem": 1001,
+                    "kryssdel": 1,
+                    "fra_meter": 0.0,
+                    "til_meter": 265.23,
+                    "retning": "MED",
+                    "trafikantgruppe": "K"
+                },
+                "kortform": "EV39 S1D1 m1991 KD1 m0-265"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 72248,
+                "startposisjon": 0.0,
+                "sluttposisjon": 1.0,
+                "kortform": "0.0-1.0@72248",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(263257.9 7030306.4 9.729, 263252 7030305.2 9.729, 263246.2 7030304 9.729, 263233.5 7030300.9 9.629, 263225.2 7030298.1 9.629, 263217.7 7030295.7 9.629, 263210.8 7030293.4 9.529, 263202.9 7030291 9.529, 263191.9 7030287.2 9.429, 263183.7 7030284.5 9.529, 263176.2 7030282 9.529, 263167.1 7030279.3 9.529, 263157.7 7030276 9.529, 263146.9 7030272.3 9.629, 263140.2 7030271.1 9.229, 263121.1 7030268.7 8.529, 263103.7 7030267 8.529, 263086.7 7030266.3 8.129, 263074.2 7030266.6 7.529, 263052.7 7030267.4 6.029, 263033.7 7030267.4 4.829, 263015.2 7030266.9 4.129, 263001.7 7030266.3 4.129, 263000.2 7030266.3 4.129, 262998.8 7030266.2 4.129)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 265.231
+    },
+    "relasjoner": {}
+}

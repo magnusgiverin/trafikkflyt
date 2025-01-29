@@ -1,0 +1,163 @@
+{
+    "id": 1018934506,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1018934506/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2024-01-10",
+        "sist_modifisert": "2024-02-27T10:18:42"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 72220,
+                    "startposisjon": 0.0,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2023
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2500
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 5,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(272539.8 7039218.9 125.639, 272538.9 7039216.6 125.639, 272537.9 7039214.3 125.639, 272536.2 7039210.3 125.639, 272531.6 7039203.9 125.339, 272524.7 7039200 124.939, 272519.6 7039198.3 124.839, 272514.8 7039197.6 124.439, 272507.5 7039198.2 124.039, 272501 7039199.6 123.739, 272494 7039202.1 123.039, 272486 7039206.8 122.539, 272478.8 7039211.8 122.039, 272473.9 7039216.2 121.439, 272466.5 7039226.4 121.039, 272464.7 7039233.5 120.839, 272464.9 7039240.7 120.739, 272465.8 7039247.4 120.739, 272468.4 7039254.2 120.739, 272470.7 7039258.5 120.939, 272474.5 7039264.4 120.939, 272477.7 7039268.1 120.939, 272495.2 7039285.9 121.039, 272499.7 7039290.9 121.239, 272505.3 7039296.7 121.239, 272510.1 7039301.9 121.239, 272513.4 7039305.3 121.439, 272529 7039322.2 121.439, 272544.5 7039338.3 121.539, 272558.7 7039352.6 121.839, 272572 7039366.2 121.839, 272581.2 7039376.3 122.039, 272588.3 7039385 121.939, 272597.3 7039395.8 122.139, 272599.4 7039401.6 122.239, 272601.3 7039407.4 122.239)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 1004758086,
+                "nummer": 9401,
+                "navn": "9401 Trondheim 2020-2025 (f.o.m. 01.09.2023)"
+            },
+            {
+                "id": 1007479425,
+                "nummer": 9451,
+                "navn": "9451 Elektrokontrakt Trøndelag 2022-2026"
+            },
+            {
+                "id": 1019226085,
+                "nummer": 9405,
+                "navn": "DK 9405 Trøndelag sør"
+            },
+            {
+                "id": 1019330755,
+                "nummer": 9481,
+                "navn": "9481 Rekkverk Trøndelag og Møre og Romsdal 2023-2024"
+            }
+        ],
+        "riksvegruter": [
+            {
+                "id": 1017625546,
+                "enumid": 20296,
+                "riksvegrute": "Rute 6a: E6 Oslo - Trondheim",
+                "nummer": "6a",
+                "navn": "RUTE6A"
+            }
+        ],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1002318151,
+                    "versjon": 1,
+                    "vegkategori": "E",
+                    "fase": "V",
+                    "nummer": 6
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 76,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "meter": 3522.378,
+                    "retning": "MED"
+                },
+                "kryssystem": {
+                    "id": -1,
+                    "versjon": -1,
+                    "kryssystem": 1193,
+                    "kryssdel": 2,
+                    "fra_meter": 0.0,
+                    "til_meter": 327.0,
+                    "retning": "MED",
+                    "trafikantgruppe": "K"
+                },
+                "kortform": "EV6 S76D1 m3522 KD2 m0-327"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 72220,
+                "startposisjon": 0.0,
+                "sluttposisjon": 1.0,
+                "kortform": "0.0-1.0@72220",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(272539.8 7039218.9 125.639, 272538.9 7039216.6 125.639, 272537.9 7039214.3 125.639, 272536.2 7039210.3 125.639, 272531.6 7039203.9 125.339, 272524.7 7039200 124.939, 272519.6 7039198.3 124.839, 272514.8 7039197.6 124.439, 272507.5 7039198.2 124.039, 272501 7039199.6 123.739, 272494 7039202.1 123.039, 272486 7039206.8 122.539, 272478.8 7039211.8 122.039, 272473.9 7039216.2 121.439, 272466.5 7039226.4 121.039, 272464.7 7039233.5 120.839, 272464.9 7039240.7 120.739, 272465.8 7039247.4 120.739, 272468.4 7039254.2 120.739, 272470.7 7039258.5 120.939, 272474.5 7039264.4 120.939, 272477.7 7039268.1 120.939, 272495.2 7039285.9 121.039, 272499.7 7039290.9 121.239, 272505.3 7039296.7 121.239, 272510.1 7039301.9 121.239, 272513.4 7039305.3 121.439, 272529 7039322.2 121.439, 272544.5 7039338.3 121.539, 272558.7 7039352.6 121.839, 272572 7039366.2 121.839, 272581.2 7039376.3 122.039, 272588.3 7039385 121.939, 272597.3 7039395.8 122.139, 272599.4 7039401.6 122.239, 272601.3 7039407.4 122.239)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 327.0
+    },
+    "relasjoner": {}
+}

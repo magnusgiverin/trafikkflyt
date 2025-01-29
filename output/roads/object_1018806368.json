@@ -1,0 +1,305 @@
+{
+    "id": 1018806368,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1018806368/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2024-01-05",
+        "sist_modifisert": "2024-12-08T01:22:56"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 72161,
+                    "startposisjon": 0.64573222,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2023
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 7500
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 15,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(271319.358 7042178.198 3.85, 271326.22 7042183.96 4.733, 271333.212 7042190.129 4.778, 271335.929 7042192.341 4.794, 271342.316 7042197.542 4.833, 271347.39 7042201.734 4.925, 271353.4 7042206.7 5.033, 271366.3 7042217.5 5.033, 271375 7042224.3 5.133, 271385.988 7042232.999 5.233, 271389.527 7042235.873 5.233, 271391.617 7042237.571 5.233, 271394.933 7042240.263 5.233, 271407.995 7042250.866 5.233, 271409.182 7042251.83 5.233, 271421.365 7042261.901 5.324, 271422.623 7042262.941 5.333, 271431.513 7042270.403 5.433, 271432.541 7042271.147 5.433, 271440.365 7042278.149 5.533, 271449.671 7042286.549 5.633, 271454.915 7042291.37 5.733, 271457.048 7042293.328 5.768, 271465.372 7042302.981 5.933, 271470.058 7042308.682 6.133, 271474.36 7042314.208 6.352, 271477.988 7042318.316 6.483)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 920262210,
+                "nummer": 5006,
+                "navn": "5006 Trondheim 2020-2028"
+            },
+            {
+                "id": 1013171445,
+                "nummer": 5071,
+                "navn": "5071 Skjøtselskontrakt Trondheim"
+            },
+            {
+                "id": 1015016376,
+                "nummer": 5051,
+                "navn": "E5051 Trøndelag Sør"
+            },
+            {
+                "id": 1016312439,
+                "nummer": 5050,
+                "navn": "E5050 Signalanlegg Trondheim og Malvik 2022-2024"
+            },
+            {
+                "id": 1016532159,
+                "nummer": 9,
+                "navn": "Skiltkontrakt Trøndelag FK 2020-2025"
+            }
+        ],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 0.0,
+                    "til_meter": 5.482,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m0-5"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 5.482,
+                    "til_meter": 42.638,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m5-43"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 42.638,
+                    "til_meter": 80.129,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m43-80"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 80.129,
+                    "til_meter": 114.288,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m80-114"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 114.288,
+                    "til_meter": 129.994,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m114-130"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 129.994,
+                    "til_meter": 175.345,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m130-175"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 175.345,
+                    "til_meter": 202.992,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m175-203"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159793,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 1,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 202.992,
+                    "til_meter": 211.996,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S1D1 m203-212"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 72161,
+                "startposisjon": 0.64573222,
+                "sluttposisjon": 1.0,
+                "kortform": "0.64573222-1.0@72161",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(271319.358 7042178.198 3.85, 271326.22 7042183.96 4.733, 271333.212 7042190.129 4.778, 271335.929 7042192.341 4.794, 271342.316 7042197.542 4.833, 271347.39 7042201.734 4.925, 271353.4 7042206.7 5.033, 271366.3 7042217.5 5.033, 271375 7042224.3 5.133, 271385.988 7042232.999 5.233, 271389.527 7042235.873 5.233, 271391.617 7042237.571 5.233, 271394.933 7042240.263 5.233, 271407.995 7042250.866 5.233, 271409.182 7042251.83 5.233, 271421.365 7042261.901 5.324, 271422.623 7042262.941 5.333, 271431.513 7042270.403 5.433, 271432.541 7042271.147 5.433, 271440.365 7042278.149 5.533, 271449.671 7042286.549 5.633, 271454.915 7042291.37 5.733, 271457.048 7042293.328 5.768, 271465.372 7042302.981 5.933, 271470.058 7042308.682 6.133, 271474.36 7042314.208 6.352, 271477.988 7042318.316 6.483)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 211.997
+    },
+    "relasjoner": {}
+}

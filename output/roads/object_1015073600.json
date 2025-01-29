@@ -1,0 +1,151 @@
+{
+    "id": 1015073600,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1015073600/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2022-02-04",
+        "sluttdato": "2024-12-19",
+        "sist_modifisert": "2024-12-19T09:02:22"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 42327,
+                    "startposisjon": 0.345708,
+                    "sluttposisjon": 0.44850278,
+                    "kjørefelt": []
+                },
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 2235556,
+                    "startposisjon": 0.0,
+                    "sluttposisjon": 1.0,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2021
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2400
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 11,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(276625.959 7041093.601 6.21, 276628.538 7041092.544 6.04, 276636.731 7041089.275 6.37, 276641.6 7041087.3 6.64, 276666.5 7041076.3 7.14, 276684.396 7041069.213 7.441, 276704.2 7041060.8 7.241, 276721.5 7041054.3 7.241, 276741.7 7041047.1 7.241, 276756.3 7041042 7.341, 276775.1 7041035.7 7.441, 276781.844 7041033.681 6.705, 276793.361 7041030.172 7.53, 276822.3 7041022.3 7.641, 276872.258 7041009.532 7.641, 276886.4 7041005.7 7.841, 276902.7 7041001.6 7.941, 276916.6 7040998.2 8.041, 276932.3 7040994.3 8.141, 276943.751 7040991.651 8.241, 276954.458 7040989.382 8.341, 276960.397 7040988.138 8.341, 276967.107 7040986.832 8.341, 276975.042 7040986.068 8.44, 276986.76 7040987.2 6.341, 276995.64 7040989.27 6.081, 277012.381 7040993.768 5.747, 277022.628 7040996.49 5.921)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 905910087,
+                "nummer": 1655,
+                "navn": "Metrobuss"
+            }
+        ],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1003304590,
+                    "versjon": 1,
+                    "vegkategori": "K",
+                    "fase": "V",
+                    "nummer": 6130
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 5,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1094.138,
+                    "til_meter": 1509.479,
+                    "retning": "MED"
+                },
+                "kortform": "KV6130 S5D1 m1094-1509"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 42327,
+                "startposisjon": 0.345708,
+                "sluttposisjon": 0.44850278,
+                "kortform": "0.345708-0.44850278@42327",
+                "kjørefelt": []
+            },
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 2235556,
+                "startposisjon": 0.0,
+                "sluttposisjon": 1.0,
+                "kortform": "0.0-1.0@2235556",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(276625.959 7041093.601 6.21, 276628.538 7041092.544 6.04, 276636.731 7041089.275 6.37, 276641.6 7041087.3 6.64, 276666.5 7041076.3 7.14, 276684.396 7041069.213 7.441, 276704.2 7041060.8 7.241, 276721.5 7041054.3 7.241, 276741.7 7041047.1 7.241, 276756.3 7041042 7.341, 276775.1 7041035.7 7.441, 276781.844 7041033.681 6.705, 276793.361 7041030.172 7.53, 276822.3 7041022.3 7.641, 276872.258 7041009.532 7.641, 276886.4 7041005.7 7.841, 276902.7 7041001.6 7.941, 276916.6 7040998.2 8.041, 276932.3 7040994.3 8.141, 276943.751 7040991.651 8.241, 276954.458 7040989.382 8.341, 276960.397 7040988.138 8.341, 276967.107 7040986.832 8.341, 276975.042 7040986.068 8.44, 276986.76 7040987.2 6.341, 276995.64 7040989.27 6.081, 277012.381 7040993.768 5.747, 277022.628 7040996.49 5.921)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 415.341
+    },
+    "relasjoner": {}
+}

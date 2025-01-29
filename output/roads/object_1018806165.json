@@ -1,0 +1,261 @@
+{
+    "id": 1018806165,
+    "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/540/1018806165/1",
+    "metadata": {
+        "type": {
+            "id": 540,
+            "navn": "Trafikkmengde"
+        },
+        "versjon": 1,
+        "startdato": "2024-01-05",
+        "sist_modifisert": "2025-01-22T22:37:29"
+    },
+    "egenskaper": [
+        {
+            "id": 120540,
+            "navn": "Liste av lokasjonsattributt",
+            "egenskapstype": "Liste",
+            "datatype": "Liste",
+            "innhold": [
+                {
+                    "id": 100540,
+                    "navn": "StrekningTilknytning",
+                    "egenskapstype": "Stedfesting",
+                    "datatype": "GeomLinje eller Kurve",
+                    "stedfestingstype": "Linje",
+                    "veglenkesekvensid": 72812,
+                    "startposisjon": 0.34969982,
+                    "sluttposisjon": 0.40608748,
+                    "kjørefelt": []
+                }
+            ]
+        },
+        {
+            "id": 4621,
+            "navn": "År, gjelder for",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 2023
+        },
+        {
+            "id": 4623,
+            "navn": "ÅDT, total",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 21000
+        },
+        {
+            "id": 4624,
+            "navn": "ÅDT, andel lange kjøretøy",
+            "egenskapstype": "Heltall",
+            "datatype": "Tall",
+            "verdi": 12,
+            "enhet": {
+                "id": 22,
+                "navn": "Prosent",
+                "kortnavn": "%"
+            }
+        },
+        {
+            "id": 4625,
+            "navn": "Grunnlag for ÅDT",
+            "egenskapstype": "Tekstenum",
+            "datatype": "FlerverdiAttributt, Tekst",
+            "verdi": "Skjønn",
+            "enum_id": 5580
+        }
+    ],
+    "geometri": {
+        "wkt": "LINESTRING Z(270398.761 7039800.16 23.062, 270398.736 7039808.047 22.837, 270398.631 7039813.819 22.739, 270398.523 7039819.772 22.637, 270398.245 7039831.198 22.537, 270397.687 7039846.665 22.537, 270397.341 7039854.849 22.637, 270396.854 7039864.766 22.837, 270396.256 7039874.833 22.937, 270395.432 7039886.06 23.237, 270394.347 7039900.617 23.637, 270393.673 7039908.026 23.837, 270392.925 7039915.885 24.037, 270392.476 7039919.852 24.161, 270391.615 7039925.428 24.337, 270390.043 7039936.018 24.637, 270387.9 7039948.6 24.837, 270386.986 7039955.916 24.92, 270386.8 7039957.4 24.937, 270385.8 7039964.3 24.937, 270384.3 7039975.6 25.137, 270382.5 7039986.5 25.136, 270380.8 7039997.8 25.036, 270378.127 7040010.757 25.036, 270377.085 7040015.807 25.036, 270375.6 7040024.057 24.936, 270374.011 7040032.05 24.836, 270372.115 7040043.067 24.736, 270370.564 7040053.504 24.644, 270370.424 7040054.443 24.636, 270370.058 7040058.426 24.078, 270369.194 7040072.839 24.536)",
+        "srid": 5973,
+        "egengeometri": false
+    },
+    "lokasjon": {
+        "kommuner": [
+            5001
+        ],
+        "fylker": [
+            50
+        ],
+        "kontraktsområder": [
+            {
+                "id": 920262210,
+                "nummer": 5006,
+                "navn": "5006 Trondheim 2020-2028"
+            },
+            {
+                "id": 1013171445,
+                "nummer": 5071,
+                "navn": "5071 Skjøtselskontrakt Trondheim"
+            },
+            {
+                "id": 1015016376,
+                "nummer": 5051,
+                "navn": "E5051 Trøndelag Sør"
+            },
+            {
+                "id": 1016312439,
+                "nummer": 5050,
+                "navn": "E5050 Signalanlegg Trondheim og Malvik 2022-2024"
+            },
+            {
+                "id": 1016532159,
+                "nummer": 9,
+                "navn": "Skiltkontrakt Trøndelag FK 2020-2025"
+            }
+        ],
+        "riksvegruter": [],
+        "gater": [],
+        "vegsystemreferanser": [
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1783.916,
+                    "til_meter": 1792.96,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m1784-1793"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1792.96,
+                    "til_meter": 1803.35,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m1793-1803"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1803.35,
+                    "til_meter": 1846.771,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m1803-1847"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1846.771,
+                    "til_meter": 1902.345,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m1847-1902"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 1902.345,
+                    "til_meter": 2045.105,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m1902-2045"
+            },
+            {
+                "vegsystem": {
+                    "id": 1002159797,
+                    "versjon": 1,
+                    "vegkategori": "F",
+                    "fase": "V",
+                    "nummer": 6690
+                },
+                "strekning": {
+                    "id": -1,
+                    "versjon": -1,
+                    "strekning": 3,
+                    "delstrekning": 1,
+                    "arm": false,
+                    "adskilte_løp": "Nei",
+                    "trafikantgruppe": "K",
+                    "fra_meter": 2045.105,
+                    "til_meter": 2058.77,
+                    "retning": "MOT"
+                },
+                "kortform": "FV6690 S3D1 m2045-2059"
+            }
+        ],
+        "stedfestinger": [
+            {
+                "type": "Linje",
+                "veglenkesekvensid": 72812,
+                "startposisjon": 0.34969982,
+                "sluttposisjon": 0.40608748,
+                "kortform": "0.34969982-0.40608748@72812",
+                "kjørefelt": []
+            }
+        ],
+        "geometri": {
+            "wkt": "LINESTRING Z(270398.761 7039800.16 23.062, 270398.736 7039808.047 22.837, 270398.631 7039813.819 22.739, 270398.523 7039819.772 22.637, 270398.245 7039831.198 22.537, 270397.687 7039846.665 22.537, 270397.341 7039854.849 22.637, 270396.854 7039864.766 22.837, 270396.256 7039874.833 22.937, 270395.432 7039886.06 23.237, 270394.347 7039900.617 23.637, 270393.673 7039908.026 23.837, 270392.925 7039915.885 24.037, 270392.476 7039919.852 24.161, 270391.615 7039925.428 24.337, 270390.043 7039936.018 24.637, 270387.9 7039948.6 24.837, 270386.986 7039955.916 24.92, 270386.8 7039957.4 24.937, 270385.8 7039964.3 24.937, 270384.3 7039975.6 25.137, 270382.5 7039986.5 25.136, 270380.8 7039997.8 25.036, 270378.127 7040010.757 25.036, 270377.085 7040015.807 25.036, 270375.6 7040024.057 24.936, 270374.011 7040032.05 24.836, 270372.115 7040043.067 24.736, 270370.564 7040053.504 24.644, 270370.424 7040054.443 24.636, 270370.058 7040058.426 24.078, 270369.194 7040072.839 24.536)",
+            "srid": 5973,
+            "egengeometri": false
+        },
+        "lengde": 274.855
+    },
+    "relasjoner": {}
+}
