@@ -67,7 +67,7 @@ def fetch_object_details(object_id):
     """
     Fetch details for a specific object by ID from the API or load it from the local file if it exists.
     """
-    filename = f"roads/object_{object_id}.json"
+    filename = f"data/svv/object_ids/{object_id}.json"
 
     # Check if the file already exists locally
     if os.path.exists(filename):
@@ -211,15 +211,14 @@ def generate_map(roads_data, input_crs="EPSG:32633", output_crs="EPSG:4326"):
     """
 
     # Save the HTML file
-    with open("map.html", "w", encoding="utf-8") as file:
+    with open("output/svv-map.html", "w", encoding="utf-8") as file:
         file.write(html_content)
-        print("Map HTML file generated as 'map.html'")
+        print("Map HTML file generated as 'ssv-map.html'")
         
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
-    os.makedirs("output", exist_ok=True)
-    os.makedirs("output/roads", exist_ok=True)
-    os.chdir("output")
+    os.makedirs("data", exist_ok=True)
+    os.makedirs("data/svv", exist_ok=True)
 
     # Define the initial bounding box
     initial_bbox = (250000,7000000,300000,7100000)
@@ -229,14 +228,28 @@ if __name__ == "__main__":
     sub_boxes = split_bounding_box(initial_bbox, grid_size)
 
     # Step 1: Fetch kartutsnitt for each sub-box and aggregate object IDs
+    object_ids_file = "data/svv/all_object_ids.json"
     all_object_ids = []
-    for bbox in sub_boxes:
-        print(f"Fetching data for sub-box: {bbox}")
-        object_ids = fetch_nvdb_kartutsnitt(bbox)
-        all_object_ids.extend(object_ids)
+
+    # Check if the object IDs file already exists
+    if os.path.exists(object_ids_file):
+        # Load the object IDs from the file
+        with open(object_ids_file, "r", encoding="utf-8") as file:
+            all_object_ids = json.load(file)
+        print(f"Loaded object IDs from {object_ids_file}")
+    else:
+        for bbox in sub_boxes:
+            print(f"Fetching data for sub-box: {bbox}")
+            object_ids = fetch_nvdb_kartutsnitt(bbox)
+            all_object_ids.extend(object_ids)
 
     # Remove duplicate object IDs (if any)
     all_object_ids = list(set(all_object_ids))
+
+    # Save the object IDs to a JSON file
+    with open(object_ids_file, "w", encoding="utf-8") as file:
+        json.dump(all_object_ids, file, ensure_ascii=False, indent=4)
+    print(f"Saved object IDs to {object_ids_file}")
 
     # Step 2: Fetch details for each object ID and collect geometry and ÅDT values
     roads_data = []

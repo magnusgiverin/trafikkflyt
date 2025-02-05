@@ -8,7 +8,7 @@
         },
         "versjon": 1,
         "startdato": "2024-01-05",
-        "sist_modifisert": "2025-01-27T23:58:44"
+        "sist_modifisert": "2025-02-04T11:59:17"
     },
     "egenskaper": [
         {
@@ -129,11 +129,11 @@
                     "arm": false,
                     "adskilte_løp": "Nei",
                     "trafikantgruppe": "K",
-                    "fra_meter": 3457.737,
-                    "til_meter": 4012.181,
+                    "fra_meter": 3458.093,
+                    "til_meter": 4012.538,
                     "retning": "MED"
                 },
-                "kortform": "FV6658 S1D1 m3458-4012"
+                "kortform": "FV6658 S1D1 m3458-4013"
             }
         ],
         "stedfestinger": [
