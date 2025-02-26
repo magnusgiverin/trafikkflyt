@@ -1,0 +1,7 @@
+shapely
+osmnx
+networkx
+matplotlib
+pandas
+geopandas
+ipykernel
