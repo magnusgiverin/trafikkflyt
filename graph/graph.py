@@ -16,12 +16,15 @@ polygon = Polygon([
     (10.35, 63.44),  # Northwest
 ])
 
+# TRUE use_all_of_trondheim is true, use the whole area of Trondheim
+# 
 if use_all_of_trondheim:
     G = ox.graph_from_place(place_name, network_type='drive', simplify=True)
 else:
     G = ox.graph_from_polygon(polygon, network_type='drive', simplify=True)
 
 
+# If remove bridge is true Remove Elgeseter Bridge from the map
 if remove_bridge:
     north_end_coords = (10.3955, 63.4284)  # Midtbyen side
     south_end_coords = (10.3965, 63.4261)  # Elgeseter side
