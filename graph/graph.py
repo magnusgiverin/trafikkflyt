@@ -17,7 +17,7 @@ polygon = Polygon([
 ])
 
 # TRUE use_all_of_trondheim is true, use the whole area of Trondheim
-# 
+# FALSE use_all_of_trondheim is false, use the polygon defined above which is the central area of Trondheim
 if use_all_of_trondheim:
     G = ox.graph_from_place(place_name, network_type='drive', simplify=True)
 else:
