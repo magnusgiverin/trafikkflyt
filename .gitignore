@@ -1,2 +1,4 @@
 data/telia/
 cache/
+venv/
+.venv/
