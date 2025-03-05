@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 use_all_of_trondheim = False
-remove_bridge = True
+remove_bridge = False
 place_name = "Trondheim, Norway"
 
 # Define a polygon (Example: central Trondheim area)
@@ -19,9 +19,9 @@ polygon = Polygon([
 # TRUE use_all_of_trondheim is true, use the whole area of Trondheim
 # FALSE use_all_of_trondheim is false, use the polygon defined above which is the central area of Trondheim
 if use_all_of_trondheim:
-    G = ox.graph_from_place(place_name, network_type='drive', simplify=True)
+    G = ox.graph_from_place(place_name, network_type='drive', simplify=True, truncate_by_edge=True)
 else:
-    G = ox.graph_from_polygon(polygon, network_type='drive', simplify=True)
+    G = ox.graph_from_polygon(polygon, network_type='drive', simplify=True, truncate_by_edge=True)
 
 
 # If remove bridge is true Remove Elgeseter Bridge from the map
