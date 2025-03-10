@@ -59,9 +59,14 @@ top_nodes = sorted(node_centrality.items(), key=lambda x: x[1], reverse=True)[:5
 # Color the nodes according to their centrality
 node_color = [node_centrality.get(node, 0) for node in G.nodes()]
 
+edge_centrality = nx.edge_betweenness_centrality(G_undirected, normalized=True)
+
+edge_color = [edge_centrality.get(edge, 0) for edge in G.edges()]
+
 fig, ax = ox.plot_graph(
     G, 
     node_color=node_color, 
+    edge_color=edge_color,
     node_size=20,
     edge_linewidth=1.5
 )
